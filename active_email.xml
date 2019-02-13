@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_for_email_to_send"
+        android:layout_width="205dp"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="29dp"
+        android:background="#ccb221"
+        android:text="click this button to send mail" />
+
+    <TextView
+        android:id="@+id/emailid_entering_for_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="560dp"
+        android:fontFamily="cursive"
+        android:text="enter your email id here"
+        android:textColor="#cc21"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/idforsubject"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="461dp"
+        android:hint="enter the subject content here"
+        android:textColorHint="#bb23" />
+
+    <EditText
+        android:id="@+id/edit_text_for_mail_body_content"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:hint="enter the body content here"
+        android:textColorHint="#df4" />
+
+</RelativeLayout>
